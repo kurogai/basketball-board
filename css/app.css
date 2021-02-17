@@ -1,0 +1,73 @@
+#menu-left{
+    position: fixed;
+    background-color: black;
+    height: 5000px;
+    margin: auto;
+}
+
+#menu-left p img{
+    max-width: 50px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+#menu-left p img:hover{
+    background-color: rgb(255, 136, 0) !important;
+    max-width: 60px;
+    transition: 0.3s;
+    border-radius: 100%;
+}
+
+#menu-right{
+    text-align: center;
+}
+
+#advice{
+    padding-top: 15%;
+    font-size: 30px;
+}
+#advice button{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#plays span{
+    padding-top: 20px;
+    padding-left: 120px;
+    display: flex;
+}
+
+#plays span div *{
+    color: rgb(0, 0, 0);
+}
+
+#plays span div p{
+    font-size: 20px;
+}
+
+
+#plays span div p button{
+    background-color: rgb(255, 145, 111);
+    font-size: 20px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#plays span div{
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+#plays span div:hover{
+    font-size: 30px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(15, 197, 61);
+    transition: 0.3s;
+}

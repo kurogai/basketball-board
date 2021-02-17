@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle</title>
+    <link rel="stylesheet" type="text/css" href="./css/design.css">
+    <link rel="stylesheet" type="text/css" href="./css/create.css">
+</head>
+<body>
+    <header>
+        <img src="./images/icons/icon.png">
+        <p><a href="index.html" style="color: white;">Voltar</a></p>
+    </header>
+    <div id="viewport-create">
+        <h1 style="background-color: black; color: white;">Criar Playbook</h1>
+        <div id="create" class="create">
+            <span>
+                <p>Nome do playbook:</p>
+                <input type="text" maxlength="100">
+            </span>
+            <span>
+                <p>Modelo Tatico:</p>
+                <select>
+                    <option selected="true">Ofensivo</option>
+                    <option>Defensivo</option>
+                    <option>Campo Completo</option>
+                </select>
+            </span>
+            <span>
+                <p>Formação:</p>
+                <select>
+                    <option selected="true">Nenhuma (Padrão)</option>
+                    <option>1x1</option>
+                    <option>1x2</option>
+                    <option>2x2</option>
+                    <option>3x3</option>
+                    <option>2x3</option>
+                    <option>1x3</option>
+                    <option>3x5</option>
+                    <option>5x5</option>
+                    <option>3x6</option>
+                    <option>6x6</option>
+                </select>
+            </span>
+            <span>
+                <p>Salvar automaticamente</p>
+                <select>
+                    <option selected>Sim</option>
+                    <option>Não</option>
+                </select>
+            </span>
+        </div>
+        <h2>Modelo do campo</h2>
+        <div id="board-select">
+            <img src="./images/c1.png">
+            <img src="./images/c2.png">
+            <img src="./images/c3.png">
+            <img src="./images/c4.png">
+            <img src="./images/c5.png">
+            <img src="./images/c6.png">
+        </div>
+        <div id="selection">
+            <div>
+                <p>Modelo 1</p><input type="radio">
+            </div>
+            <div>
+                <p>Modelo 2</p><input type="radio">
+            </div>
+            <div>
+                <p>Modelo 3</p><input type="radio">
+            </div>
+            <div>
+                <p>Modelo 4</p><input type="radio">
+            </div>
+            <div>
+                <p>Modelo 5</p><input type="radio">
+            </div>
+            <div>
+                <p>Modelo 6</p><input type="radio">
+            </div>
+        </div>
+        <a href="manage.html"><input type="button" value="Criar" align="left" style="margin-top: 20px; margin-bottom: 5px; font-size: 20px;"></a>
+    </div>
+    
+</body>
+</html>

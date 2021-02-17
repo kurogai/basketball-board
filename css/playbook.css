@@ -1,0 +1,85 @@
+#campo{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+svg{
+    position: absolute;
+    align-content: center;
+}
+
+header div{
+    padding: 5px;
+    transition: 0.2s;
+}
+
+header div ul{
+    display: none;
+}
+
+header div:hover{
+    background-color: yellow;
+    transition: 0.2s;
+}
+
+header div:active{
+    background-color: rgb(255, 145, 0) !important;
+}
+
+.container:hover{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100%;
+    background-color: rgb(255, 0, 106);
+}
+
+.seta{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(24, 104, 168) !important;
+}
+
+.jogador{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.jogador:active{
+    background-color: rgba(168, 218, 220, 1.100);
+}
+.jogador:hover{
+    cursor: move;
+    background-color: rgba(168, 218, 220, 1.100);
+}
+.bola{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(255, 187, 0);
+}
+
+.jogador p{
+    font-size: 25px;
+    margin-top: 5px;
+    user-select: unset;
+    position: absolute;
+}

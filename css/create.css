@@ -1,0 +1,32 @@
+#viewport-create{
+    text-align: center;
+    max-width: 1000px;
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: whitesmoke;
+}
+
+#create{
+    display: flex;
+}
+
+#create span{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding-left: 8%;
+}
+
+#board-select{
+    display: flex;
+}
+
+#board-select img{
+    margin: 10px;
+}
+#selection div{
+    display: inline-block;
+    padding-left: 5rem;
+}

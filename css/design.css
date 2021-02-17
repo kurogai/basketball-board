@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+}
+
+header{
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    color: white;
+    background-color: black;
+}
+header p{
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    font-size: 20px;
+}
+header img{
+    max-width: 40px;
+}
+#viewport div{
+    margin: 15px;
+}
+#viewport div p{
+    font-size: 20px;
+}
+
+#manage p{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.1s;
+}
+
+#manage p:hover{
+    background-color: rgb(255, 109, 11);
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
